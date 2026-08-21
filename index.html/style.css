@@ -1,4 +1,10 @@
+:root{
+    --cor0:
+    --cor1:
+    --cor2
 
+
+}
  header >h1{
    display: flex;
     text-align: center;
@@ -17,8 +23,9 @@ nav>a{
     border-radius: 5%;
     color: rgb(28, 25, 165);
     line-height: 10px;
+    transition-duration: 1s;
 }
 nav>a:hover{
     text-decoration-color: rgb(228, 4, 4);
-    color: brown;
+    color: rgb(0, 0, 0);
 }
