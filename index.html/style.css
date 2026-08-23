@@ -1,31 +1,33 @@
 :root{
-    --cor0:
-    --cor1:
-    --cor2
-
-
+    --cor0-principal:#E01010;
+    --cor1-secundaria:#ffff00;
+    --cor2-terciaria:#000000;
 }
  header >h1{
    display: flex;
     text-align: center;
     justify-content: center;
+    background-color: #E01010;
 }
 header>p{
     display: flex;
     text-align: center;
     justify-content: center;
-
 }
 
 nav>a{
     padding: 10px;
     padding-bottom:  10% 10%;
     border-radius: 5%;
-    color: rgb(28, 25, 165);
-    line-height: 10px;
-    transition-duration: 1s;
+    color:#ffff00;
+    line-height: normal;
 }
 nav>a:hover{
-    text-decoration-color: rgb(228, 4, 4);
-    color: rgb(0, 0, 0);
+    text-decoration-color:#E01010;
+    color:#E01010;
+    transition-duration: 1s;
+}
+article>h2{
+    color: #E01010;
+    font-family: 'Courier New', Courier, monospace;
 }
