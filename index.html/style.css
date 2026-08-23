@@ -1,13 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root{
     --cor0-principal:#E01010;
-    --cor1-secundaria:#ffff00;
+    --cor1-secundaria:#E6E615;
     --cor2-terciaria:#000000;
 }
  header >h1{
    display: flex;
     text-align: center;
     justify-content: center;
-    background-color: #E01010;
 }
 header>p{
     display: flex;
@@ -17,10 +20,10 @@ header>p{
 
 nav>a{
     padding: 10px;
-    padding-bottom:  10% 10%;
-    border-radius: 5%;
-    color:#ffff00;
+    padding-bottom: 10% 10%;
     line-height: normal;
+    color: #E6E615;
+    font-size: 115%;
 }
 nav>a:hover{
     text-decoration-color:#E01010;
@@ -29,5 +32,19 @@ nav>a:hover{
 }
 article>h2{
     color: #E01010;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+}
+article>p{
+    text-align: justify;
+    text-indent: 5%;
+    font-size: 115%;
+}
+ul{
+    font-size: 115%;
+}
+footer{
+    background-color: #E01010;
+    text-align: center;
+    font-size: 115%;
 }
