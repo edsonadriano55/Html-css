@@ -1,19 +1,23 @@
 div.Login{
 display: flex;
-height: 400px;
-width: 400px;
+height: 300px;
+width: 300px;
 border-color: aqua;
 border: 1px solid black;
 border-radius: 10px;
 justify-content: center;
 margin: auto;
-text-align: center;
 }
-h1{
-    font-size: 110%;
 
+.h1{
+    text-align: center;
+    display: flex;
+    text-decoration: brown;
 }
-form{
-    align-items: flex-end;
+#name{
+    text-decoration: rgb(94, 79, 19);
 }
+    
+
+    
 
