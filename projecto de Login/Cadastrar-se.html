@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="Campo">
+        <h1>Cadastrar-se</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"  placeholder="Digite seu nome" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu enail" placeholder="Insire o seu email" required>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Crie sua senha" required>
+        <input type="radio" id="genero" name="genero" value="masculino" required>
+        <label for="genero">Masculino</label>
+        <input type="radio" id="genero" name="genero" value="feminino" required>
+        <label for="genero">Feminino</label>
+        <input type="checkbox" id="termos" name="termos" required>
+        <label for="termos">li aceito os termos e condições</label>
+        <button type="submit">Cadastrar</button>
+        <p>Já tem uma conta? <a href="Login.html">Faça login</a></p>
+    </div>
+    <script>
+        alert("Bem-vindo ao nosso site! Por favor, preencha o formulário para se cadastrar.");
+    </script>
+</body>
+</html>
